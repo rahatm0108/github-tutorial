@@ -32,10 +32,11 @@ Git is a version control system and GitHub is a web-page on which you can publis
 1. `cd ~/workspace`
 2. `mkdir filename`: Make a directory 
 3. `cd filename`: change into your new file from workspace
+5. `git status`: to make sure you are in the right directory 
 4. `git init`: intializes git in the directory
 
 **SSH key:** SSH keys statnds for secure shell and establishs a secure connection between your computer and GitHub
-
+what is an SSH key 
 ---
 ## Repository Setup
 
