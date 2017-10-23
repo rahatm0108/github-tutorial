@@ -56,6 +56,13 @@ what is an SSH key ?
 
 ---
 ## Workflow & Commands
+###### General commands
+`mkdir`:
+`touch`:
+`cd`:
+`~`:
+---
+###### Important commands
 
 `git status`: command to see which files have been edited since the last commit  
 `git add`: add the file to the stage to be committed  
