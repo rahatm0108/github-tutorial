@@ -36,7 +36,7 @@ Git is a version control system and GitHub is a web-page on which you can publis
 4. `git init`: intializes git in the directory
 
 **SSH key:** SSH keys statnds for secure shell and establishs a secure connection between your computer and GitHub
-what is an SSH key 
+what is an SSH key ?
 ---
 ## Repository Setup
 
@@ -59,8 +59,11 @@ what is an SSH key
 
 `git status`: command to see which files have been edited since the last commit  
 `git add`: add the file to the stage to be committed  
-`git commit`: take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot  
+`git add .` and `git add --all`:
+`git commit -m`: take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot  
 `git push`: push the commited file back up to the remote
+
+
 
 ---
 ## Rolling Back Changes
