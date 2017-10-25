@@ -35,7 +35,6 @@ Git is a version control system and GitHub is a web-page on which you can publis
 3. Title it cloud9. 
 4. Then go to c9.io and press the gear icon > SSH keys tab > copy(from cloud9) and paste the SSH key in GitHub and add the SSH key.  
 
-
 ---
 ## Repository Setup
 
