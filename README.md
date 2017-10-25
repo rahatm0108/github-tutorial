@@ -23,10 +23,11 @@ Git is a version control system and GitHub is a web-page on which you can publis
 1. Go to the [Github](github.com) website.
 2. Click sign up.
 3. Type a your desired username and password 
-5. Verify this account through the email you used to sign up
-6. Go to c9.io and sign in using your Github account.
-7. After signing into cloud9, press the gear icon and then go to Connected Service.
-8. Press the green connect button to connect your cloud9 and github
+4. Verify this account through the email you used to sign up
+5. Go to [cloud9](c9.io) and sign in using your Github account.
+6. After signing into cloud9, press the gear icon and then go to Connected Service.
+7. Press the green connect button to connect your cloud9 and github
+![](account.png)
 * **SSH Key**:   
 **SSH Key** stands for secure shell and establishs a secure connection between your computer and GitHub
 1. Go to GitHub, and go to your profile settings.
