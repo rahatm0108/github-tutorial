@@ -4,7 +4,7 @@ _by Rahat Mazhar_
 
 ---
 ## Git vs. GitHub
-Git is a version control system and GitHub is a web-page on which you can publish your Git repositories and collaborate with other people.  
+_Git is a version control system and GitHub is a web-page on which you can publish your Git repositories and collaborate with other people._
 
 * **Git:**   
   * Git is taking snapshots of code   
@@ -22,12 +22,14 @@ Git is a version control system and GitHub is a web-page on which you can publis
 * **Making a Github account:**
 1. Go to the [Github](github.com) website.
 2. Click sign up.
+![](account.png)
+![](account-2.png)
 3. Type a your desired username and password 
 4. Verify this account through the email you used to sign up
 5. Go to [cloud9](c9.io) and sign in using your Github account.
 6. After signing into cloud9, press the gear icon and then go to Connected Service.
 7. Press the green connect button to connect your cloud9 and github
-![](account.png)
+
 * **SSH Key**:   
 **SSH Key** stands for secure shell and establishs a secure connection between your computer and GitHub
 1. Go to GitHub, and go to your profile settings.
@@ -38,7 +40,7 @@ Git is a version control system and GitHub is a web-page on which you can publis
 
 ---
 ## Repository Setup
-
+These are the steps required to set up a repository:
 1. `mkdir filename`: Create a folder or repository through the command line
 2. `cd filename`: Change into that folder 
 3. `git init`: Then, initialize git in the new repository 
@@ -50,7 +52,7 @@ Git is a version control system and GitHub is a web-page on which you can publis
 * **Setup a remote repo**. 
   * Go to GitHub and select the + button and press the New Repository button. 
   * Name the repository on GitHub the same name as the repository on cloud9
-  * Make sure to click SSH, copy and paste into cloud9 the one that says git remote add origin git@github.com : yourgithubusername/repo-name.git. Then, copy and paste into cloud9 : git push -u origin master.
+  * Make sure to select the SSH URL, copy and paste into cloud9 the one that says git remote add origin git@github.com : yourgithubusername/repo-name.git. Then, copy and paste into cloud9 : git push -u origin master.
 ---
 ## Workflow & Commands
 ###### General commands
@@ -73,10 +75,12 @@ Git is a version control system and GitHub is a web-page on which you can publis
 ---
 ## Rolling Back Changes
 
-undo edit: After you've made an edit undo it using `git checkout -- filename`  
-undo add: After you've added a change undo it using `git reset HEAD filename`  
-undo commit: After you've made a commit undo it using `git reset --soft HEAD~1` or `git reset HEAD~1`  
-undo push:After you've pushed to the remote undo it using `git reset --hard HEAD~1`
+There are times where you may want to reverse the changes you have made in order to do that follow these commands:  
+
+**undo edit:** After you've made an edit in your file and will like to undo it, then undo it using `git checkout -- filename`.  
+**undo add:** After you've added a change, but you will likw to reverse that action, then undo it using `git reset HEAD filename`. This will unstage the file.    
+**undo commit:** After you've made a commit that you don't want, undo it using `git reset --soft HEAD~1`. This will take you before your commit message.  
+**undo push:** After you've pushed to the remote you can undo it using `git reset --hard HEAD~1`. This will take you back to your edits.
 
 
 ---
