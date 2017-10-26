@@ -48,11 +48,13 @@ These are the steps required to set up a repository:
 5. `c9 README.md`: Open the README.md file and type something, and save the file.
 6. `git status`: Type git status to check the changes made in the file.
 7. `git add`: Type git add README.md to add the file to the stage
-8. `git commit -m`: Type git commit -m "" and add a message about the changes made.
-* **Setup a remote repo**. 
+8. `git commit -m`: Type git commit -m "" and add a message about the changes made.  
+ 
+**Setup a remote repo**. 
   * Go to GitHub and select the + button and press the New Repository button. 
   * Name the repository on GitHub the same name as the repository on cloud9
   * Make sure to select the SSH URL, copy and paste into cloud9 the one that says git remote add origin git@github.com : yourgithubusername/repo-name.git. Then, copy and paste into cloud9 : git push -u origin master.
+
 ---
 ## Workflow & Commands
 ###### General commands
